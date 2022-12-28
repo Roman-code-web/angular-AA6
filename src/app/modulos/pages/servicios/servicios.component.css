@@ -1,0 +1,13 @@
+.servicios__container{
+    margin-top: 80px;
+    background-color: #2A3990;
+    padding-top: 50px;
+}
+.servicios__icono{
+    font-size: 3.5rem;
+    color: #2A3990;
+}
+.servicios__Card{
+    padding: 20px !important;
+}
+
