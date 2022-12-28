@@ -1,0 +1,9 @@
+.nosotros__imagen{
+    height: auto !important;
+    max-height: 500px !important;
+}
+.nosotros__p{
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 0px 20px ;
+}

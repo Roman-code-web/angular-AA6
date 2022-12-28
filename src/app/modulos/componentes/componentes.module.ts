@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './header/navbar/navbar.component';
 import { RouterModule } from '@angular/router';
+import { BodyComponent } from './body/body.component';
+import { SliderComponent } from './body/slider/slider.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -10,7 +13,10 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    BodyComponent,
+    SliderComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +24,9 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    SliderComponent,
+    FooterComponent
   ]
 })
 export class ComponentesModule { }

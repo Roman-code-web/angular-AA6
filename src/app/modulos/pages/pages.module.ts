@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { ContactosComponent } from './contactos/contactos.component';
+import { HomeComponent } from './home/home.component';
+import { ComponentesModule } from '../componentes/componentes.module';
 
 
 
@@ -10,13 +12,12 @@ import { ContactosComponent } from './contactos/contactos.component';
   declarations: [
     NosotrosComponent,
     ServiciosComponent,
-    ContactosComponent
+    ContactosComponent,
+    HomeComponent
   ],
   imports: [
-    CommonModule
-  ],
-  exports :[
-    NosotrosComponent
+    CommonModule,
+    ComponentesModule
   ]
 
 })
